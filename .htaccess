@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/samualvarez [NC]
+RewriteRule ^(.*)$ /SamuAlvarez/$1 [L,R=301]
